@@ -12,4 +12,4 @@
 5. The resulting file ```tidy_data_set.txt``` will apear in ```UCI HAR Dataset```
 
 ## Used libraries
-### dplyr
+- dplyr
