@@ -74,4 +74,4 @@ for (i in 1:length(col_names))
 tidy_data_set <- as.data.frame(filtered_ds%>%group_by(subject, activity, activity_name)%>%summarise_each(funs(mean)))
 
 # writing tidy data set in file
-write.table(tidy_data_set, file = "tidy_data_set.txt")
+write.table(tidy_data_set, file = "tidy_data_set.txt", row.names=FALSE)
